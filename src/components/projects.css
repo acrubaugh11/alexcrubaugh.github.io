@@ -1,0 +1,67 @@
+.heading {
+    padding-bottom: 50px;
+}
+
+.projects {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+
+.images {
+    height: 120px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+
+.project-1 :hover{
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+.project-2 :hover {
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+.project-3 :hover{
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+.project-4 :hover{
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+
+
+.projects :hover p {
+    border: none !important;
+}
+
+.projects :hover .images {
+    border: 10px solid black !important;
+}
+
+
+.projects a {
+    text-decoration: none; 
+    color: black;
+    display: block;
+}
+
+.projects a:hover {
+    text-decoration: none;
+    border: none !important;
+}
+
+.row1 {
+    padding: 5px;
+}
+
+.row2 {
+    padding: 5px;
+}
+

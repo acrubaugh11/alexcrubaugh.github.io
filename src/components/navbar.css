@@ -1,0 +1,87 @@
+/* navbar.css */
+
+
+/*fix navbar to top*/
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: rgb(255, 255, 255) !important;
+  opacity: 1;
+  box-shadow: 0 10px 4px 0 rgba(0,0,0,.2);
+}
+
+
+/* style navbar container */
+.custom-container {
+  display: flex;
+  justify-content: space-between; /* Push items to the left and right */
+  align-items: center; /* Center the items vertically */
+  background-color: rgb(255, 255, 255) !important;
+  color: white; /* Set text color to white */
+  padding: 20px 10px; /* Add padding */
+}
+
+/* Navbar items (links) styling */
+.navbar-nav {
+  display: flex; /* Enable flexbox on nav items */
+  align-items: center; /* Vertically center the items */
+  gap: 30px; /* Add a large gap between the items */
+}
+
+.nav-link {
+  color: black !important; /* Light color for the links */
+  font-size: 1.1rem; /* Increase font size for better visibility */
+  font-weight: 500; /* Medium weight font */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  letter-spacing: 1px;
+  padding: 10px 15px; /* Add padding around the links */
+}
+
+/* Change the color of the nav-link on hover */
+.nav-link:hover {
+  color: pink !important; /* Change color on hover */
+  text-decoration: none; /* Remove the underline */
+}
+
+/* Style the brand */
+.navbar-brand {
+  font-size: 1.8rem; /* Larger font size */
+  font-weight: bold; /* Bold text for the brand */
+  color: black !important; /* Light color for the brand */
+  text-transform: uppercase; /* Capitalize brand name */
+  letter-spacing: 1px; /* Space between the letters */
+}
+
+/* Navbar toggler (hamburger icon) */
+.navbar-toggler {
+  border-color: black; /* Light color for the toggler */
+}
+
+
+/* Ensure the items are spaced correctly in smaller screen sizes (mobile view) */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center; /* Center the nav items in mobile */
+    width: 100%; /* Ensure the nav items take full width on mobile */
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%; /* Each nav item should take up full width */
+  }
+
+  .navbar-nav .nav-item + .nav-item {
+    border-top: 1px solid #ddd; /* Add a border between items */
+  }
+
+  .navbar-toggler {
+    background-color: #3498db; /* Blue background for the hamburger */
+  }
+}
+
+/* Add space below the navbar to prevent content from being hidden */
+body {
+  margin-top: 150px; /* Adjust this based on navbar height */
+}

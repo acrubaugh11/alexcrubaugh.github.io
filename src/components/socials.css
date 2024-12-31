@@ -1,0 +1,16 @@
+.main .row {
+    display: flex;              /* Set to Flexbox */
+    justify-content: space-between; /* Spread items evenly */
+    gap: 10px;                  /* Adjust the gap between columns */
+  }
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Create 3 equal columns */
+    column-gap: -10px;
+  }
+  
+  .github-images, .linkedin-images, .facebook-images {
+    width: 100%;  /* Make the images fill their respective grid cell */
+    height: auto;  /* Keep aspect ratio */
+  }
