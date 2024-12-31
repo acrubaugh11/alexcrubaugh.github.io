@@ -15,7 +15,7 @@ function HeroSection() {
           <div className="hero-text">
             <h1 className="welcome-text">Welcome</h1>
             <p>Aspiring Software Engineer.</p>
-            <p>Learn more about myself, view some of my projects, or connect with me.
+            <p>Current Senior in Computer Science, Based in Greensboro, NC.
             </p>
           </div>
         </Col>
